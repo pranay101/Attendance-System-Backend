@@ -1,0 +1,33 @@
+{
+  "name": "attendance_system_backend",
+  "version": "1.0.0",
+  "description": "optimal way of managing attendance",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "NODE_ENV=test node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pranay101/Attendance-System-Backend.git"
+  },
+  "keywords": [
+    "attendancesystem",
+    "node",
+    "javascript"
+  ],
+  "author": "pranay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranay101/Attendance-System-Backend/issues"
+  },
+  "homepage": "https://github.com/pranay101/Attendance-System-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "path": "^0.12.7"
+  }
+}
